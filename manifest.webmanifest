@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "name": "Quiet Harbor",
+  "short_name": "Harbor",
+  "description": "Offline-first PWA starter that ships to Web, Windows and Android.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0d1b2a",
+  "theme_color": "#0d1b2a",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "./icons/screenshot-wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide" },
+    { "src": "./icons/screenshot-narrow.png", "sizes": "720x1280", "type": "image/png", "form_factor": "narrow" }
+  ]
+}
